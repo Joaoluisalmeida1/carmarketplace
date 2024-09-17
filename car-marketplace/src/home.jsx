@@ -5,6 +5,8 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Category from "./components/ui/Category"
 import MostSearchedCar from "./components/ui/MostSearchedCar"
+import InfoSection from "./components/InfoSection"
+import Footer from "./components/ui/Footer"
 
 
 function Home() {
@@ -18,6 +20,10 @@ function Home() {
             <Category/>
             {/* Most Searched Car*/}
             <MostSearchedCar/>
+            {/* Info Section */}
+            <InfoSection/>
+            {/* Footer */}
+            <Footer/>
         </div>
     )   
 }

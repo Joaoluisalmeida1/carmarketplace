@@ -6,6 +6,10 @@ import { RouterProvider, createBrowserRouter} from 'react-router-dom'
 import Home from './home'
 import Contact from './contact'
 import { ClerkProvider } from '@clerk/clerk-react'
+import Profile from './profile'
+import AddListing from './add-listing'
+
+
 
 const router = createBrowserRouter([
   {
@@ -15,7 +19,16 @@ const router = createBrowserRouter([
   {
     path:'/contact',
     element:<Contact/>
+  },
+  {
+    path:'/profile',
+    element:<Profile/>
+  },
+  {
+    path:'/add-listing',
+    element:<AddListing/>
   }
+
 ])
 
 // Import your publishable key
